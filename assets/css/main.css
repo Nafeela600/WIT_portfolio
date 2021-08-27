@@ -2444,3 +2444,13 @@ input, select, textarea {
 	width: 50%;
 	height: 100%
 }
+
+.stack{
+	text-align: left;
+}
+
+.visit-section{
+	text-align: center;
+	color: black;
+	font-weight: 900;
+}
