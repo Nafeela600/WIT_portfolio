@@ -14,6 +14,7 @@
 				<ul class="container">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#skill">Skill</a></li>
+					<li><a href="#projects">Projects</a></li>
 					<li><a href="#certificates">Certificates</a></li>
 					<li><a href="#academics">Academics</a></li>
 					<li><a href="#socials">Socials</a></li>
@@ -65,20 +66,74 @@
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
-								<img class="skillicon" src="./images/GIT.svg" alt="JS">
+								<img class="skillicon" src="./images/GIT.svg" alt="Git">
 								<h3>Git</h3>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
-								<img class="skillicon" src="./images/GITHUB.svg" alt="JS">
+								<img class="skillicon" src="./images/GITHUB.svg" alt="GitHub">
 								<h3>GitHub</h3>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img class="skillicon" src="./images/PYTHON.svg" alt="Python">
+								<h3>Python</h3>
 							</section>
 						</div>
 					</div>
 					
 				</div>
 			</article>
+
+			<!-- Projects -->
+			<article id="projects" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here are some of my projects.</h2>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a  class="image featured"><img src="./images/HC_portfolio.png" alt="Portfolio made for hack club project" /></a>
+								<h6>Portfolio Website</h6>
+								<ul class="stack">
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>JS</li>
+								</ul>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a  class="image featured"><img src="./images/twitterbot.png" alt="Pillechan twitter bot" /></a>
+								<h6>Twitter Bot</h6>
+								<ul class="stack">
+									<li>Python</li>
+									<li>Tweepy</li>
+								</ul>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a  class="image featured"><img src="./images/WIT_portfolio.png" alt="portfolio for wit" /></a>
+								<h6>Portfolio Website</h6>
+								<ul class="stack">
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>JS</li>
+								</ul>
+							</article>
+						</div>
+						
+						
+					</div>
+				</div>
+			</article>
+
+
+
 
 		<!-- certificates -->
 			<article id="certificates" class="wrapper style3">
@@ -165,7 +220,9 @@
 					
 				</div>
 			</article>
-			<p>Total number of visitors to the site:<div id="visits">...</div></p>
+			<div >
+				<p class="text-align: center;">Total number of visitors to the site:<div id="visits">...</div></p>
+			</div>
 			<script>
 				function cb(response) {
 					document.getElementById('visits').innerText = response.value;
